@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Cimicode Test TestNG ">
+    <test name="Cucumber TestNG Simple Framework">
+         <classes>
+             <class name="com.cimicode.runners.LoginPageRunner"/>
+             <class name="com.cimicode.runners.ChatPageRunner"/>
+          </classes>
+     </test>
+</suite>
